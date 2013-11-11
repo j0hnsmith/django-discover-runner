@@ -1,6 +1,7 @@
 from django.core.exceptions import ImproperlyConfigured
 from django.test import TestCase
-from django.test.simple import DjangoTestSuiteRunner, reorder_suite
+from django.test.simple import DjangoTestSuiteRunner
+from django.test.runner import reorder_suite
 from django.utils.importlib import import_module
 
 from discover_runner.settings import (TEST_DISCOVER_ROOT,
